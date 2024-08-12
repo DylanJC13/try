@@ -1,1 +1,232 @@
-<h1>Que sriva por dios</h1>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae - Mi Nombre</title>
+    <link rel="stylesheet" href="colores.css">
+    <style>
+        body {
+            font-family: "Times New Roman", serif;
+            background-color: #f4f6f9; /* Gris muy claro */
+            color: #2c3e50; /* Azul oscuro */
+            margin: 0;
+            padding: 0;
+            scroll-behavior: smooth; /* Scroll suave */
+        }
+        .navbar {
+            background-color: #2980b9; /* Color de fondo del menú */
+            color: #ffffff; /* Color del texto */
+            position: fixed; /* Fija el menú en la parte superior */
+            width: 100%; /* Ocupa todo el ancho de la pantalla */
+            top: 0;
+            left: 0;
+            z-index: 1000; /* Asegura que el menú esté por encima de otros elementos */
+            padding: 10px 0;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra para darle un efecto de profundidad */
+        }
+
+        .navbar ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        .navbar ul li {
+            display: inline; /* Coloca los elementos en línea */
+            margin-right: 20px;
+        }
+
+        .navbar ul li a {
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        .navbar ul li a:hover {
+            text-decoration: underline;
+        }
+
+        /* Ajuste del contenido para evitar que quede detrás del menú */
+        .container {
+            width: 70%;
+            margin: 80px auto 20px auto; /* Ajusta el margen superior para no superponerse con el menú */
+            background-color: #ffffff; /* Blanco puro */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+
+        .header {
+            text-align: center;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #2980b9; /* Azul medio */
+        }
+
+        .profile-pic {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            margin-top: 20px;
+        }
+
+        .header h1 {
+            margin: 10px 0 5px 0;
+            font-size: 28px;
+            color: #2c3e50; /* Azul oscuro */
+        }
+
+        .header p {
+            font-size: 18px;
+            color: #34495e; /* Azul grisáceo */
+        }
+
+        .content {
+            margin-top: 20px;
+        }
+
+        .content h2 {
+            font-size: 24px;
+            color: #2980b9; /* Azul medio */
+            margin-bottom: 10px;
+            border-bottom: 2px solid #ecf0f1; /* Gris muy claro */
+            padding-bottom: 5px;
+        }
+
+        .content p {
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+
+        .content h3 {
+            font-size: 20px;
+            color: #2c3e50; /* Azul oscuro */
+            margin-bottom: 5px;
+        }
+
+        .content ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .content ul li {
+            margin-bottom: 10px;
+            line-height: 1.6;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+            padding-top: 20px;
+            border-top: 2px solid #ecf0f1; /* Gris muy claro */
+        }
+
+        .footer p {
+            color: #808080; /* Gris */
+            font-size: 14px;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                width: 90%;
+                padding: 15px;
+            }
+            .header h1 {
+                font-size: 24px;
+            }
+            .header p {
+                font-size: 16px;
+            }
+            .content h2 {
+                font-size: 22px;
+            }
+            .content h3 {
+                font-size: 18px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .container {
+                width: 100%;
+                padding: 10px;
+                margin: 0;
+                box-shadow: none;
+            }
+            .profile-pic {
+                width: 100px;
+                height: 100px;
+            }
+            .header h1 {
+                font-size: 20px;
+            }
+            .header p {
+                font-size: 14px;
+            }
+            .content h2 {
+                font-size: 20px;
+            }
+            .content h3 {
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Menú de navegación -->
+    <nav class="navbar" role="navigation" aria-label="Menú de navegación principal">
+        <ul>
+            <li><a href="#sobre-nosotros" tabindex="0">Sobre Nosotros</a></li>
+            <li><a href="#experiencia-laboral" tabindex="0">Experiencia Laboral</a></li>
+            <li><a href="#educacion" tabindex="0">Educación</a></li>
+            <li><a href="#habilidades" tabindex="0">Habilidades</a></li>
+        </ul>
+    </nav>
+
+    <!-- Contenido principal -->
+    <div class="container" role="main">
+        <div class="header" role="banner" aria-label="Encabezado del currículum">
+            <img src="sue.jpg" class="profile-pic" alt="Foto de perfil de Dylan y Andres" tabindex="0">
+            <h1 tabindex="0">Dylan y Andres</h1>
+            <p tabindex="0">Desarrolladores Web</p>
+        </div>
+        <div class="content" role="region" aria-label="Contenido principal" id="sobre-nosotros">
+            <h2 tabindex="0">Sobre Nosotros</h2>
+            <p tabindex="0">Somos los mejores desarrolladores web apasionados para crear soluciones innovadoras y eficaces. Nuestras habilidades incluyen HTML, CSS, JavaScript, y más.</p>
+            
+            <h2 tabindex="0" id="experiencia-laboral">Experiencia Laboral</h2>
+            <div role="article" aria-label="Experiencia en Compañía XYZ">
+                <h3 tabindex="0">Desarrollador Web - Compañía XYZ</h3>
+                <p tabindex="0"><strong>2022 - Presente</strong></p>
+                <ul>
+                    <li tabindex="0">Desarrollo de aplicaciones web utilizando HTML, CSS, y JavaScript.</li>
+                    <li tabindex="0">Colaboración con diseñadores para crear interfaces de usuario.</li>
+                </ul>
+            </div>
+            <div role="article" aria-label="Experiencia en Empresa ABC">
+                <h3 tabindex="0">Desarrollador Frontend - Empresa ABC</h3>
+                <p tabindex="0"><strong>2020 - 2022</strong></p>
+                <ul>
+                    <li tabindex="0">Implementación de diseños responsivos para sitios web.</li>
+                    <li tabindex="0">Optimización de código para mejorar el rendimiento.</li>
+                </ul>
+            </div>
+            
+            <h2 tabindex="0" id="educacion">Educación</h2>
+            <div role="article" aria-label="Educación en Universidad Manuela Beltran">
+                <h3 tabindex="0">Licenciatura en Ingeniería de Software</h3>
+                <p tabindex="0"><strong>Universidad Manuela Beltran - 2022 - 2026</strong></p>
+            </div>
+            
+            <h2 tabindex="0" id="habilidades">Habilidades</h2>
+            <ul role="list" aria-label="Lista de habilidades">
+                <li tabindex="0">HTML5, CSS3, JavaScript, React</li>
+                <li tabindex="0">Diseño responsivo y desarrollo móvil</li>
+                <li tabindex="0">Control de versiones con Git</li>
+            </ul>
+        </div>
+        <div class="footer" role="contentinfo" aria-label="Pie de página">
+            <p tabindex="0">&copy; 2024 Dylan y Andres. Todos los derechos reservados.</p>
+        </div>
+    </div>
+</body>
+</html>
