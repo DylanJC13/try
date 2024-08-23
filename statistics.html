@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
   <head>
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
@@ -6,170 +5,238 @@
       rel="stylesheet"
       as="style"
       onload="this.rel='stylesheet'"
-      href="https://fonts.googleapis.com/css2?display=swap&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900&amp;family=Plus+Jakarta+Sans%3Awght%40400%3B500%3B700%3B800"
+      href="https://fonts.googleapis.com/css2?display=swap&amp;family=Be+Vietnam+Pro%3Awght%40400%3B500%3B700%3B900&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900"
     />
-    <title>Contacto - Ronald Richards</title>
+
+    <title>Ronald Richards Lawyer</title>
     <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
+
     <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
     <style>
-      /* Media Queries for Mobile Devices */
-      @media (max-width: 640px) {
-        .layout-container {
-          padding: 0;
+        /* Media Queries for Mobile Devices */
+        @media (max-width: 640px) {
+          .layout-container {
+            padding: 0;
+          }
+          .header {
+            flex-direction: column;
+            align-items: flex-start;
+          }
+          .header .text-lg {
+            font-size: 1.25rem;
+          }
+          .header .text-sm {
+            font-size: 0.875rem;
+          }
+          .form-input {
+            height: auto;
+            padding: 0.5rem;
+          }
+          .h-10 {
+            height: 2.5rem;
+          }
+          .px-40 {
+            padding-left: 1rem;
+            padding-right: 1rem;
+          }
         }
-        .header {
-          flex-direction: column;
-          align-items: flex-start;
+  
+        @media (max-width: 480px) {
+          .header {
+            padding: 1rem;
+          }
+          .layout-content-container {
+            max-width: 100%;
+            padding: 1rem;
+          }
+          .text-2xl {
+            font-size: 1.5rem;
+          }
+          .text-base {
+            font-size: 0.875rem;
+          }
+          .h-14 {
+            height: 3rem;
+          }
+          .min-h-36 {
+            min-height: 10rem;
+          }
         }
-        .header .text-lg {
-          font-size: 1.25rem;
-        }
-        .header .text-sm {
-          font-size: 0.875rem;
-        }
-        .form-input {
-          height: auto;
-          padding: 0.5rem;
-        }
-        .h-10 {
-          height: 2.5rem;
-        }
-        .px-40 {
-          padding-left: 1rem;
-          padding-right: 1rem;
-        }
-      }
-
-      @media (max-width: 480px) {
-        .header {
-          padding: 1rem;
-        }
-        .layout-content-container {
-          max-width: 100%;
-          padding: 1rem;
-        }
-        .text-2xl {
-          font-size: 1.5rem;
-        }
-        .text-base {
-          font-size: 0.875rem;
-        }
-        .h-14 {
-          height: 3rem;
-        }
-        .min-h-36 {
-          min-height: 10rem;
-        }
-      }
-    </style>
+      </style>
   </head>
   <body>
-    <div class="relative flex size-full min-h-screen flex-col bg-white group/design-root overflow-x-hidden" style='font-family: "Plus Jakarta Sans", "Noto Sans", sans-serif;'>
+    <div class="relative flex size-full min-h-screen flex-col bg-slate-50 group/design-root overflow-x-hidden" style='font-family: "Be Vietnam Pro", "Noto Sans", sans-serif;'>
       <div class="layout-container flex h-full grow flex-col">
-        <header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#f0f3f4] px-10 py-3">
-          <div class="flex items-center gap-4 text-[#111517]">
-            <div class="size-4">
-              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
-                  d="M24 18.4228L42 11.475V34.3663C42 34.7796 41.7457 35.1504 41.3601 35.2992L24 42V18.4228Z"
-                  fill="currentColor"
-                ></path>
-                <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
-                  d="M24 8.18819L33.4123 11.574L24 15.2071L14.5877 11.574L24 8.18819ZM9 15.8487L21 20.4805V37.6263L9 32.9945V15.8487ZM27 37.6263V20.4805L39 15.8487V32.9945L27 37.6263ZM25.354 2.29885C24.4788 1.98402 23.5212 1.98402 22.646 2.29885L4.98454 8.65208C3.7939 9.08038 3 10.2097 3 11.475V34.3663C3 36.0196 4.01719 37.5026 5.55962 38.098L22.9197 44.7987C23.6149 45.0671 24.3851 45.0671 25.0803 44.7987L42.4404 38.098C43.9828 37.5026 45 36.0196 45 34.3663V11.475C45 10.2097 44.2061 9.08038 43.0155 8.65208L25.354 2.29885Z"
-                  fill="currentColor"
-                ></path>
-              </svg>
-            </div>
-            <h2 class="text-[#111517] text-lg font-bold leading-tight tracking-[-0.015em]" tabindex="0">Contacto</h2>
-          </div>
-          <div class="flex flex-1 justify-end gap-8">
-            <div class="flex items-center gap-9">
-              <a class="text-[#111517] text-sm font-medium leading-normal" href="index.html" tabindex="0">Pagina Principal</a>
-              <a class="text-[#111517] text-sm font-medium leading-normal" href="statistics.html" tabindex="0">Estadisticas</a>
-            </div>
-            <button
-              class="flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-10 bg-[#f0f3f4] text-[#111517] gap-2 text-sm font-bold leading-normal tracking-[0.015em] min-w-0 px-2.5"
-              aria-label="Ajustes"
-              tabindex="0"
-            >
-              <div class="text-[#111517]" data-icon="Gear" data-size="20px" data-weight="regular">
-                <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" viewBox="0 0 256 256">
-                  <path
-                    d="M128,80a48,48,0,1,0,48,48A48.05,48.05,0,0,0,128,80Zm0,80a32,32,0,1,1,32-32A32,32,0,0,1,128,160Zm88-29.84q.06-2.16,0-4.32l14.92-18.64a8,8,0,0,0,1.48-7.06,107.21,107.21,0,0,0-10.88-26.25,8,8,0,0,0-6-3.93l-23.72-2.64q-1.48-1.56-3-3L186,40.54a8,8,0,0,0-3.94-6,107.71,107.71,0,0,0-26.25-10.87,8,8,0,0,0-7.06,1.49L130.16,40Q128,40,125.84,40L107.2,25.11a8,8,0,0,0-7.06-1.48A107.6,107.6,0,0,0,73.89,34.51a8,8,0,0,0-3.93,6L67.32,64.27q-1.56,1.49-3,3L40.54,70a8,8,0,0,0-6,3.94,107.71,107.71,0,0,0-10.87,26.25,8,8,0,0,0,1.49,7.06L40,125.84Q40,128,40,130.16L25.11,148.8a8,8,0,0,0-1.48,7.06,107.21,107.21,0,0,0,10.88,26.25,8,8,0,0,0,6,3.93l23.72,2.64q1.49,1.56,3,3L70,215.46a8,8,0,0,0,3.94,6,107.71,107.71,0,0,0,26.25,10.87,8,8,0,0,0,7.06-1.49L125.84,216q2.16.06,4.32,0l18.64,14.92a8,8,0,0,0,7.06,1.48,107.21,107.21,0,0,0,26.25-10.88,8,8,0,0,0,3.93-6l2.64-23.72q1.56-1.48,3-3L215.46,186a8,8,0,0,0,6-3.94,107.71,107.71,0,0,0,10.87-26.25,8,8,0,0,0-1.49-7.06Zm-16.1-6.5a73.93,73.93,0,0,1,0,8.68,8,8,0,0,0,1.74,5.48l14.19,17.73a91.57,91.57,0,0,1-6.23,15L187,173.11a8,8,0,0,0-5.1,2.64,74.11,74.11,0,0,1-6.14,6.14,8,8,0,0,0-2.64,5.1l-2.51,22.58a91.32,91.32,0,0,1-15,6.23l-17.74-14.19a8,8,0,0,0-5-1.74,73.94,73.94,0,0,1-8.68,0,8,8,0,0,0-5.48-1.74l-17.73-14.19a91.58,91.58,0,0,1-15-6.23l-6.14,6.14a8,8,0,0,0-5.1,2.64l-22.58-2.51a91.3,91.3,0,0,1-6.23-15l14.19-17.73a8,8,0,0,0,1.74-5.48Zm-33.16-18.36a32,32,0,1,1,32-32A32,32,0,0,1,128,192Zm0-80a48,48,0,1,0,48,48A48.05,48.05,0,0,0,128,112Z"
-                  />
-                </svg>
-              </div>
-            </button>
-          </div>
-        </header>
         <div class="px-40 flex flex-1 justify-center py-5">
           <div class="layout-content-container flex flex-col max-w-[960px] flex-1">
-            <h3 class="text-[#111517] tracking-light text-2xl font-bold leading-tight px-4 text-center pb-2 pt-5" tabindex="0">Contactame</h3>
-            <p class="text-[#111517] text-base font-normal leading-normal pb-3 pt-1 px-4 text-center" tabindex="0">
-                Necesitas asesoria en aun proyecto de UI-UX, tienes una consulta o deseas colaborar? Estoy aqui para ayudarte.
-            </p>
-            <form id="contact-form" class="flex flex-col max-w-[480px]">
-              <div class="flex flex-wrap items-end gap-4 px-4 py-3">
-                <label class="flex flex-col min-w-40 flex-1">
-                  <p class="text-[#111517] text-base font-medium leading-normal pb-2" tabindex="0">Nombre</p>
-                  <input
-                    placeholder="Juan Perez"
-                    class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-xl text-[#111517] focus:outline-0 focus:ring-0 border-none bg-[#f0f3f4] focus:border-none h-14 placeholder:text-[#647987] p-4 text-base font-normal leading-normal"
-                    value=""
-                    required
-                    tabindex="0"
-                  />
-                </label>
+            <div class="flex flex-wrap gap-4 p-4">
+              <div class="flex min-w-[158px] flex-1 flex-col gap-2 rounded-xl p-6 bg-[#e7eef4]">
+                <p class="text-[#0d151c] text-base font-medium leading-normal">100+</p>
+                <p class="text-[#0d151c] tracking-light text-2xl font-bold leading-tight">Proyectos creados exitosamente</p>
               </div>
-              <div class="flex flex-wrap items-end gap-4 px-4 py-3">
-                <label class="flex flex-col min-w-40 flex-1">
-                  <p class="text-[#111517] text-base font-medium leading-normal pb-2" tabindex="0">Correo</p>
-                  <input
-                    placeholder="juan@perez.com"
-                    type="email"
-                    class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-xl text-[#111517] focus:outline-0 focus:ring-0 border-none bg-[#f0f3f4] focus:border-none h-14 placeholder:text-[#647987] p-4 text-base font-normal leading-normal"
-                    value=""
-                    required
-                    tabindex="0"
-                  />
-                </label>
+              <div class="flex min-w-[158px] flex-1 flex-col gap-2 rounded-xl p-6 bg-[#e7eef4]">
+                <p class="text-[#0d151c] text-base font-medium leading-normal">25 Years</p>
+                <p class="text-[#0d151c] tracking-light text-2xl font-bold leading-tight">Experiencia en branding</p>
               </div>
-              <div class="flex flex-wrap items-end gap-4 px-4 py-3">
-                <label class="flex flex-col min-w-40 flex-1">
-                  <p class="text-[#111517] text-base font-medium leading-normal pb-2" tabindex="0">Mensaje</p>
-                  <textarea
-                    placeholder="Hola Ronald, me gustaria discutir un caso.Podemos coordinar una reunion?"
-                    class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-xl text-[#111517] focus:outline-0 focus:ring-0 border-none bg-[#f0f3f4] focus:border-none min-h-36 placeholder:text-[#647987] p-4 text-base font-normal leading-normal"
-                    tabindex="0"
-                  ></textarea>
-                </label>
+              <div class="flex min-w-[158px] flex-1 flex-col gap-2 rounded-xl p-6 bg-[#e7eef4]">
+                <p class="text-[#0d151c] text-base font-medium leading-normal">4.9/5</p>
+                <p class="text-[#0d151c] tracking-light text-2xl font-bold leading-tight">Calificacion del Cliente</p>
               </div>
-              <div class="flex px-4 py-3">
-                <button
-                  type="submit"
-                  class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-10 px-4 flex-1 bg-[#1d8cd7] text-white text-sm font-bold leading-normal tracking-[0.015em]"
-                  tabindex="0"
-                >
-                  <span class="truncate">Enviar</span>
-                </button>
+            </div>
+            <div class="flex flex-wrap gap-4 px-4 py-6">
+              <div class="flex min-w-72 flex-1 flex-col gap-2">
+                <p class="text-[#0d151c] text-base font-medium leading-normal">Clientes Satisfechos</p>
+                <p class="text-[#0d151c] tracking-light text-[32px] font-bold leading-tight truncate">500+</p>
+                <p class="text-[#49779c] text-base font-normal leading-normal">El Mes Pasado</p>
+                <div class="grid min-h-[180px] gap-x-4 gap-y-6 grid-cols-[auto_1fr] items-center py-3">
+                  <p class="text-[#49779c] text-[13px] font-bold leading-normal tracking-[0.015em]">Corporativo</p>
+                  <div class="h-full flex-1"><div class="border-[#49779c] bg-[#e7eef4] border-r-2 h-full" style="width: 90%;"></div></div>
+                  <p class="text-[#49779c] text-[13px] font-bold leading-normal tracking-[0.015em]">Familiar</p>
+                  <div class="h-full flex-1"><div class="border-[#49779c] bg-[#e7eef4] border-r-2 h-full" style="width: 75%;"></div></div>
+                  <p class="text-[#49779c] text-[13px] font-bold leading-normal tracking-[0.015em]">Penal</p>
+                  <div class="h-full flex-1"><div class="border-[#49779c] bg-[#e7eef4] border-r-2 h-full" style="width: 85%;"></div></div>
+                </div>
               </div>
-            </form>
-            <p id="success-message" class="hidden text-green-600 text-center mt-4" tabindex="0">El mensaje fue enviado con exito</p>
+              <div class="flex min-w-72 flex-1 flex-col gap-2">
+                <p class="text-[#0d151c] text-base font-medium leading-normal">Proyectos Completados</p>
+                <p class="text-[#0d151c] tracking-light text-[32px] font-bold leading-tight truncate">150+</p>
+                <p class="text-[#49779c] text-base font-normal leading-normal">2024</p>
+                <div class="flex min-h-[180px] flex-1 flex-col gap-8 py-4">
+                  <svg width="100%" height="148" viewBox="-3 0 478 150" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+                    <path
+                      d="M0 109C18.1538 109 18.1538 21 36.3077 21C54.4615 21 54.4615 41 72.6154 41C90.7692 41 90.7692 93 108.923 93C127.077 93 127.077 33 145.231 33C163.385 33 163.385 101 181.538 101C199.692 101 199.692 61 217.846 61C236 61 236 45 254.154 45C272.308 45 272.308 121 290.462 121C308.615 121 308.615 149 326.769 149C344.923 149 344.923 1 363.077 1C381.231 1 381.231 81 399.385 81C417.538 81 417.538 129 435.692 129C453.846 129 453.846 25 472 25V149H326.769H0V109Z"
+                      fill="url(#paint0_linear_1131_5935)"
+                    ></path>
+                    <path
+                      d="M0 109C18.1538 109 18.1538 21 36.3077 21C54.4615 21 54.4615 41 72.6154 41C90.7692 41 90.7692 93 108.923 93C127.077 93 127.077 33 145.231 33C163.385 33 163.385 101 181.538 101C199.692 101 199.692 61 217.846 61C236 61 236 45 254.154 45C272.308 45 272.308 121 290.462 121C308.615 121 308.615 149 326.769 149C344.923 149 344.923 1 363.077 1C381.231 1 381.231 81 399.385 81C417.538 81 417.538 129 435.692 129C453.846 129 453.846 25 472 25"
+                      stroke="#49779c"
+                      stroke-width="3"
+                      stroke-linecap="round"
+                    ></path>
+                    <defs>
+                      <linearGradient id="paint0_linear_1131_5935" x1="236" y1="1" x2="236" y2="149" gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#e7eef4"></stop>
+                        <stop offset="1" stop-color="#e7eef4" stop-opacity="0"></stop>
+                      </linearGradient>
+                    </defs>
+                  </svg>
+                  <div class="flex justify-around">
+                    <p class="text-[#49779c] text-[13px] font-bold leading-normal tracking-[0.015em]">Ene</p>
+                    <p class="text-[#49779c] text-[13px] font-bold leading-normal tracking-[0.015em]">Feb</p>
+                    <p class="text-[#49779c] text-[13px] font-bold leading-normal tracking-[0.015em]">Mar</p>
+                    <p class="text-[#49779c] text-[13px] font-bold leading-normal tracking-[0.015em]">Abr</p>
+                    <p class="text-[#49779c] text-[13px] font-bold leading-normal tracking-[0.015em]">May</p>
+                    <p class="text-[#49779c] text-[13px] font-bold leading-normal tracking-[0.015em]">Jun</p>
+                    <p class="text-[#49779c] text-[13px] font-bold leading-normal tracking-[0.015em]">Jul</p>
+                    <p class="text-[#49779c] text-[13px] font-bold leading-normal tracking-[0.015em]">Ago</p>
+                  </div>
+                </div>
+              </div>
+              <div class="flex min-w-72 flex-1 flex-col gap-2">
+                <p class="text-[#0d151c] text-base font-medium leading-normal">Testimonios de Clientes</p>
+                <p class="text-[#0d151c] tracking-light text-[32px] font-bold leading-tight truncate">98%</p>
+                <p class="text-[#49779c] text-base font-normal leading-normal">De Satisfaccion</p>
+                <div class="grid min-h-[180px] grid-flow-col gap-6 grid-rows-[1fr_auto] items-end justify-items-center px-3">
+                  <div class="border-[#49779c] bg-[#e7eef4] border-t-2 w-full" style="height: 85%;"></div>
+                  <p class="text-[#49779c] text-[13px] font-bold leading-normal tracking-[0.015em]">Positivos</p>
+                  <div class="border-[#49779c] bg-[#e7eef4] border-t-2 w-full" style="height: 10%;"></div>
+                  <p class="text-[#49779c] text-[13px] font-bold leading-normal tracking-[0.015em]">Neutrales</p>
+                  <div class="border-[#49779c] bg-[#e7eef4] border-t-2 w-full" style="height: 5%;"></div>
+                  <p class="text-[#49779c] text-[13px] font-bold leading-normal tracking-[0.015em]">Negativos</p>
+                </div>
+              </div>
+            </div>
+            <h2 class="text-[#0d151c] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Nuestra Experiencia, Tu Tranquilidad</h2>
+            <div class="grid grid-cols-[repeat(auto-fit,minmax(158px,1fr))] gap-3 p-4">
+              <div class="flex flex-1 gap-3 rounded-lg border border-[#cedde8] bg-slate-50 p-4 flex-col">
+                <div class="text-[#0d151c]" data-icon="ShieldCheck" data-size="24px" data-weight="regular">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                    <path
+                      d="M208,40H48A16,16,0,0,0,32,56v58.78c0,89.61,75.82,119.34,91,124.39a15.53,15.53,0,0,0,10,0c15.2-5.05,91-34.78,91-124.39V56A16,16,0,0,0,208,40Zm0,74.79c0,78.42-66.35,104.62-80,109.18-13.53-4.51-80-30.69-80-109.18V56H208ZM82.34,141.66a8,8,0,0,1,11.32-11.32L112,148.68l50.34-50.34a8,8,0,0,1,11.32,11.32l-56,56a8,8,0,0,1-11.32,0Z"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="flex flex-col gap-1">
+                  <h2 class="text-[#0d151c] text-base font-bold leading-tight">Proteccion Legal Integral</h2>
+                  <p class="text-[#49779c] text-sm font-normal leading-normal">Derechos en UI</p>
+                </div>
+              </div>
+              <div class="flex flex-1 gap-3 rounded-lg border border-[#cedde8] bg-slate-50 p-4 flex-col">
+                <div class="text-[#0d151c]" data-icon="Headset" data-size="24px" data-weight="regular">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                    <path
+                      d="M201.89,54.66A103.43,103.43,0,0,0,128.79,24H128A104,104,0,0,0,24,128v56a24,24,0,0,0,24,24H64a24,24,0,0,0,24-24V144a24,24,0,0,0-24-24H40.36A88.12,88.12,0,0,1,190.54,65.93,87.39,87.39,0,0,1,215.65,120H192a24,24,0,0,0-24,24v40a24,24,0,0,0,24,24h24a24,24,0,0,1-24,24H136a8,8,0,0,0,0,16h56a40,40,0,0,0,40-40V128A103.41,103.41,0,0,0,201.89,54.66ZM64,136a8,8,0,0,1,8,8v40a8,8,0,0,1-8,8H48a8,8,0,0,1-8-8V136Zm128,56a8,8,0,0,1-8-8V144a8,8,0,0,1,8-8h24v56Z"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="flex flex-col gap-1">
+                  <h2 class="text-[#0d151c] text-base font-bold leading-tight">Asesoria 24/7</h2>
+                  <p class="text-[#49779c] text-sm font-normal leading-normal">Siempre disponibles para ti</p>
+                </div>
+              </div>
+              <div class="flex flex-1 gap-3 rounded-lg border border-[#cedde8] bg-slate-50 p-4 flex-col">
+                <div class="text-[#0d151c]" data-icon="Users" data-size="24px" data-weight="regular">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                    <path
+                      d="M117.25,157.92a60,60,0,1,0-66.5,0A95.83,95.83,0,0,0,3.53,195.63a8,8,0,1,0,13.4,8.74,80,80,0,0,1,134.14,0,8,8,0,0,0,13.4-8.74A95.83,95.83,0,0,0,117.25,157.92ZM40,108a44,44,0,1,1,44,44A44.05,44.05,0,0,1,40,108Zm210.14,98.7a8,8,0,0,1-11.07-2.33A79.83,79.83,0,0,0,172,168a8,8,0,0,1,0-16,44,44,0,1,0-16.34-84.87,8,8,0,1,1-5.94-14.85,60,60,0,0,1,55.53,105.64,95.83,95.83,0,0,1,47.22,37.71A8,8,0,0,1,250.14,206.7Z"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="flex flex-col gap-1">
+                  <h2 class="text-[#0d151c] text-base font-bold leading-tight">Gestion Dedicada de Casos</h2>
+                  <p class="text-[#49779c] text-sm font-normal leading-normal">Atencion personalizada para cada cliente</p>
+                </div>
+              </div>
+            </div>
+            <h2 class="text-[#0d151c] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Nuestros Clientes lo Dicen Mejor</h2>
+            <div class="grid grid-cols-[repeat(auto-fit,minmax(158px,1fr))] gap-3 p-4">
+              <div class="flex flex-col gap-3 pb-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl"
+                  style='background-image: url("https://cdn.usegalileo.ai/stability/49fb91a9-6fac-4265-a6ad-dedee354571e.png");'
+                ></div>
+                <div>
+                  <p class="text-[#0d151c] text-base font-medium leading-normal">
+                    "Ronald Richards es un UI master excepcional. Su habilidad para resolver casos complejos es impresionante."
+                  </p>
+                  <p class="text-[#49779c] text-sm font-normal leading-normal">Laura, Cliente Satisfecho</p>
+                </div>
+              </div>
+              <div class="flex flex-col gap-3 pb-3">
+                <div>
+                  <p class="text-[#0d151c] text-base font-medium leading-normal">
+                    "Gracias a Ronald, pude empezar mi start up. Su experiencia y dedicacion marcaron la diferencia."
+                  </p>
+                  <p class="text-[#49779c] text-sm font-normal leading-normal">Carlos, Cliente Satisfecho</p>
+                </div>
+              </div>
+              <div class="flex flex-col gap-3 pb-3">
+                <div>
+                  <p class="text-[#0d151c] text-base font-medium leading-normal">
+                    "Su enfoque profesional y su trato cercano hacen de Ronald Richards un UI/UX master en quien puedes confiar."
+                  </p>
+                  <p class="text-[#49779c] text-sm font-normal leading-normal">Ana, Cliente Satisfecho</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
+        <footer class="flex justify-center">
+          <div class="flex max-w-[960px] flex-1 flex-col">
+            <footer class="flex flex-col gap-6 px-5 py-10 text-center @container">
+              <div class="flex flex-wrap items-center justify-center gap-6 @[480px]:flex-row @[480px]:justify-around">
+                <a class="text-[#49779c] text-base font-normal leading-normal min-w-40" href="index.html">Pagina Principal</a>
+                <a class="text-[#49779c] text-base font-normal leading-normal min-w-40" href="">Servicios</a>
+                <a class="text-[#49779c] text-base font-normal leading-normal min-w-40" href="contacto.html">Contacto</a>
+                <a class="text-[#49779c] text-base font-normal leading-normal min-w-40" href="#">Terminos de Servicio</a>
+                <a class="text-[#49779c] text-base font-normal leading-normal min-w-40" href="#">Politica de Privacidad</a>
+              </div>
+              <p class="text-[#49779c] text-base font-normal leading-normal">@2024 Ronald Richards </p>
+            </footer>
+          </div>
+        </footer>
       </div>
     </div>
-    <script>
-      document.getElementById('contact-form').addEventListener('submit', function(event) {
-        event.preventDefault();
-        // Simular el envío del formulario
-        document.getElementById('success-message').classList.remove('hidden');
-        event.target.reset(); // Opcional: Limpiar los campos del formulario después del envío
-      });
-    </script>
   </body>
 </html>
+
